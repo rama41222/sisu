@@ -32,4 +32,7 @@ npm run start
 
 ### Running on Ropsten
 
-NA
+1. Deploy this to ropsten
+```bash
+npx hardhat run scripts/deploy.js --network ropsten
+```
