@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+# Getting Started with Solidity
 ### Running locally
 
 1. Compile the smart contract
@@ -29,10 +28,18 @@ npm run start
 7. Import the account by private key
 8. Perform Transactions
 
-
 ### Running on Ropsten
 
 1. Deploy this to ropsten
 ```bash
 npx hardhat run scripts/deploy.js --network ropsten
+```
+### Other commands
+1. clean
+```bash
+npx hardhat clean
+```
+2. If the transactions fails due to the following issue, Reset transactions from advanced settings of metamask wallet. 
+```
+Nonce too high. Expected nonce to be 0 but got 4. Note that transactions can't be queued when automining
 ```
