@@ -24,11 +24,11 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 1337
-    }
-  },
-  ropsten: {
-    url: `https://ropsten.infura.io/v3/${process.env.ROP_KEY}`,
-    accounts: [`0X${process.env.ACCOUNT_KEY}`]
+    },
+    ropsten: {
+      url: `https://ropsten.infura.io/v3/${process.env.ROP_KEY}`,
+      accounts: [`0X${process.env.ACCOUNT_KEY}`]
+    } 
   }
 };
 
